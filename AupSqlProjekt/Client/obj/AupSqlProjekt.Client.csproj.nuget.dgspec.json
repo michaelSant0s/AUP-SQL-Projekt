@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/max/Documents/Schule/AUP-SQL-Projekt/AupSqlProjekt/Client/AupSqlProjekt.Client.csproj": {}
+  },
+  "projects": {
+    "/home/max/Documents/Schule/AUP-SQL-Projekt/AupSqlProjekt/Client/AupSqlProjekt.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/max/Documents/Schule/AUP-SQL-Projekt/AupSqlProjekt/Client/AupSqlProjekt.Client.csproj",
+        "projectName": "AupSqlProjekt.Client",
+        "projectPath": "/home/max/Documents/Schule/AUP-SQL-Projekt/AupSqlProjekt/Client/AupSqlProjekt.Client.csproj",
+        "packagesPath": "/home/max/.nuget/packages/",
+        "outputPath": "/home/max/Documents/Schule/AUP-SQL-Projekt/AupSqlProjekt/Client/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/max/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/home/max/Documents/Schule/AUP-SQL-Projekt/AupSqlProjekt/Shared/AupSqlProjekt.Shared.csproj": {
+                "projectPath": "/home/max/Documents/Schule/AUP-SQL-Projekt/AupSqlProjekt/Shared/AupSqlProjekt.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/max/Documents/Schule/AUP-SQL-Projekt/AupSqlProjekt/Shared/AupSqlProjekt.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/max/Documents/Schule/AUP-SQL-Projekt/AupSqlProjekt/Shared/AupSqlProjekt.Shared.csproj",
+        "projectName": "AupSqlProjekt.Shared",
+        "projectPath": "/home/max/Documents/Schule/AUP-SQL-Projekt/AupSqlProjekt/Shared/AupSqlProjekt.Shared.csproj",
+        "packagesPath": "/home/max/.nuget/packages/",
+        "outputPath": "/home/max/Documents/Schule/AUP-SQL-Projekt/AupSqlProjekt/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/max/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
